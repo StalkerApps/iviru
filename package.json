@@ -1,0 +1,33 @@
+{
+  "name": "ivi.ru",
+  "date": "2015.05.26",
+  "version": "1.0.1",
+  "description": "The first Russian free video provider with a licensed full-length content.",
+  "author": {
+    "name": "StalkerApps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StalkerApps/iviru.git"
+  },
+  "config": {
+    "type": "app",
+    "category": "apps",
+    "backgroundColor": "#e60040",
+    "name": "Ivi",
+    "legacy": true,
+    "description": "The first Russian free video provider with a licensed full-length content.",
+    "icons": {
+      "paths": {
+        "480": "img/480/",
+        "576": "img/576/",
+        "720": "img/720/",
+        "1080": "img/1080/"
+      },
+      "states": {
+        "normal": "normal.png",
+        "active": "active.png"
+      }
+    }
+  }
+}
